@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase and bigcase followed by a new line.
+ * main -  prints all the numbers of base 16 in lowercase, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int c;
-	int b;
+	
+	/* Loop from character '0' to character '9' */
+	for (int i = '0'; i <= '9'; i++)
+		putchar(i);
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	for (b = 1; c <= ; c++)
+	/* Loop from character 'a' to character 'f' */
+	for (c = 'a'; c <= 'f'; c++)
 		putchar(c);
 
 	putchar('\n');
