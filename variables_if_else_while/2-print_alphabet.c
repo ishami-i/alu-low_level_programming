@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main() {
-	string s = "abcdefghijklmnopqrstuvwxyz";
-	printf("%s\n", s);
-	return (0);
+int main(void) {
+	int c;
+    for (c = 'a'; c <= 'z'; c++) {
+        putchar(c);
+    }
+    putchar('\n');
+    return (0);
 }
