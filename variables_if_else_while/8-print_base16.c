@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - prints all the numbers of base 16 in lowercase, followed by a new line.
+ * main - prints base 16 numbers in lowercase.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int c;
-	int i; /* Declare i here to comply with C89/C90 standards */
-	
+	int i;
+
 	/* Loop from character '0' to character '9' */
 	for (i = '0'; i <= '9'; i++)
 		putchar(i);
